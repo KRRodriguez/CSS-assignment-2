@@ -1,86 +1,18 @@
 body {
     background: #333;
-    color: #000;
+    color: #fff;
     font-family: Calibri, Arial, sans-serif;
     font-size: 150%;
     margin: 0; /* keep this */
 }
 
-section {
-  margin: 0;
-}
-
- #cougar {
-  background: #B26219;
-  padding-bottom: 40px;
-  padding-top: 30px;
-}
-
- #lion {
-  background: #FFBD82;
-  padding-bottom: 40px;
-  padding-top: 30px;
-}
-
-#tiger{
-  background: #FFD5AE;
-  padding-bottom: 40px;
-  padding-top: 30px;
-}
-
-h2 {
-  margin: 0;
-}
-
-
-article {
-  background: #fff;
-  width: 600px;
-  margin: 0 auto;
-  padding-left: 30px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-}
-
-
-h2, section > p {
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-
-img{
-  display:block;
-  margin: auto;
-}
-
-
-footer {
-  text-align: center;
-  padding-left: 350px;
-  padding-right: 350px;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  color: #fff;
-}
-
-h1 {
-  width: 250px;
-  float: left;
-  padding-right: 30px;
-  color: #fff;
-}
-
-
 /* ----- suggested colors -----
    B26219 cinnamon
-   FFD5AE pale peach
+   FFD5AE pale peach 
    FFBD82 peach
    379CB2 medium blue
    82E8FF light blue
-
+   
    ----- neutral colors -----
    000 black
    333 charcoal
@@ -93,29 +25,5 @@ h1 {
 
 /* --- links and nav --- */
 
-.clearfix {
-  clear: both;
-}
-
 a { color: #379CB2; }
 a:hover { color: #82E8FF; }
-
-
-/* nav styles */
-
-nav {
-  float: right;
-}
-
-nav ul {
-  list-style: none;
-  margin-top: 0;
-}
-
-nav li {
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-top: 80px;
-  padding-bottom: 10px;
-}
